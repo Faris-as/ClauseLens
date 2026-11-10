@@ -108,7 +108,6 @@ clauselens/
   eval/             # Evaluation harness, metrics, CUAD & Arabic benchmarks
   data/             # Public benchmarks & synthetic legal templates
   tests/            # Unit, integration, and security test suites
-  docs/             # ARCHITECTURE.md, DATA_CARD.md, EVALUATION.md, SECURITY.md
   docker-compose.yml
   Dockerfile
   pyproject.toml
@@ -122,7 +121,7 @@ ClauseLens enforces a reproducible evaluation harness (`python eval/run_eval.py`
 1. **English Contracts:** CUAD (Atticus Project) test split across 10 core fields.
 2. **Arabic & Bilingual Contracts:** Curated synthetic UAE commercial agreements (Federal Law, DIFC, ADGM).
 
-Evaluation results, character error rates (CER) for OCR, and bootstrap 95% confidence intervals are published and updated in [`docs/EVALUATION.md`](docs/EVALUATION.md).
+Evaluation results, character error rates (CER) for OCR, and bootstrap 95% confidence intervals are generated directly via `python eval/run_eval.py` and saved to `eval/reports/`.
 
 ---
 

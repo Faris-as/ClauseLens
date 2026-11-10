@@ -43,6 +43,9 @@ data/sample/*.jpg
 data/synthetic/*.pdf
 !data/synthetic/.gitkeep
 
+# Docs (kept locally, not pushed to remote)
+docs/
+
 # IDE & Editor
 .vscode/
 .idea/
