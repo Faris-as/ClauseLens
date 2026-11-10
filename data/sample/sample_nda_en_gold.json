@@ -1,0 +1,73 @@
+{
+  "document_id": "sample_nda_en",
+  "document_name": {
+    "value_raw": "MUTUAL NON-DISCLOSURE AGREEMENT",
+    "value_norm": "Mutual Non-Disclosure Agreement",
+    "quote": "MUTUAL NON-DISCLOSURE AGREEMENT",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "parties": {
+    "value_raw": "Apex Technologies FZ-LLC ... Horizon Systems Inc.",
+    "value_norm": ["Apex Technologies FZ-LLC", "Horizon Systems Inc."],
+    "quote": "Apex Technologies FZ-LLC, a company incorporated under the laws of the Dubai Development Authority, UAE ... Horizon Systems Inc., a Delaware corporation",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "agreement_date": {
+    "value_raw": "January 15, 2026",
+    "value_norm": "2026-01-15",
+    "quote": "entered into and made effective as of January 15, 2026",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "effective_date": {
+    "value_raw": "January 15, 2026",
+    "value_norm": "2026-01-15",
+    "quote": "effective as of January 15, 2026 (the \"Effective Date\")",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "expiration_date": {
+    "value_raw": "January 15, 2027",
+    "value_norm": "2027-01-15",
+    "quote": "shall expire on January 15, 2027 (the \"Expiration Date\")",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "renewal_term": {
+    "value_raw": "successive terms of one (1) year each",
+    "value_norm": "1 year",
+    "quote": "this Agreement shall automatically renew for successive terms of one (1) year each (each a \"Renewal Term\")",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "notice_period_to_terminate_renewal": {
+    "value_raw": "at least thirty (30) days prior to the expiration",
+    "value_norm": "30 days",
+    "quote": "unless either party provides written notice of non-renewal at least thirty (30) days prior to the expiration of the then-current term",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "governing_law": {
+    "value_raw": "laws of the Dubai International Financial Centre (\"DIFC\")",
+    "value_norm": "DIFC",
+    "quote": "This Agreement and any dispute arising out of or in connection with it shall be governed by and construed in accordance with the laws of the Dubai International Financial Centre (\"DIFC\").",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "termination_for_convenience": {
+    "value_raw": "Either party may terminate this Agreement at any time without cause upon sixty (60) days prior written notice",
+    "value_norm": true,
+    "quote": "Either party may terminate this Agreement at any time without cause upon sixty (60) days prior written notice to the other party.",
+    "page": 1,
+    "confidence": 1.0
+  },
+  "cap_on_liability": {
+    "value_raw": "USD 100,000",
+    "value_norm": "100000 USD",
+    "quote": "In no event shall either party's aggregate cumulative liability arising out of or related to this Agreement exceed the sum of USD 100,000 (one hundred thousand United States Dollars).",
+    "page": 1,
+    "confidence": 1.0
+  }
+}

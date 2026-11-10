@@ -1,0 +1,66 @@
+{
+  "description": "ClauseLens 10 Core Evaluation Fields",
+  "version": "1.0.0",
+  "fields": [
+    {
+      "key": "document_name",
+      "cuad_category": "Document Name",
+      "type": "string",
+      "description": "Title or formal name of the agreement"
+    },
+    {
+      "key": "parties",
+      "cuad_category": "Parties",
+      "type": "list[string]",
+      "description": "Named legal entities entering into the agreement"
+    },
+    {
+      "key": "agreement_date",
+      "cuad_category": "Agreement Date",
+      "type": "date",
+      "description": "Date on which the contract was executed or entered into"
+    },
+    {
+      "key": "effective_date",
+      "cuad_category": "Effective Date",
+      "type": "date",
+      "description": "Date from which the contract's terms become binding"
+    },
+    {
+      "key": "expiration_date",
+      "cuad_category": "Expiration Date",
+      "type": "date",
+      "description": "End or termination date of the initial term"
+    },
+    {
+      "key": "renewal_term",
+      "cuad_category": "Renewal Term",
+      "type": "string",
+      "description": "Duration and conditions for renewing the agreement"
+    },
+    {
+      "key": "notice_period_to_terminate_renewal",
+      "cuad_category": "Notice Period To Terminate Renewal",
+      "type": "string",
+      "description": "Notice required prior to renewal to prevent automatic renewal"
+    },
+    {
+      "key": "governing_law",
+      "cuad_category": "Governing Law",
+      "type": "string",
+      "description": "Jurisdiction and legal system governing the agreement"
+    },
+    {
+      "key": "termination_for_convenience",
+      "cuad_category": "Termination For Convenience",
+      "type": "boolean",
+      "description": "Whether either party can terminate without cause, with quote"
+    },
+    {
+      "key": "cap_on_liability",
+      "cuad_category": "Cap On Liability",
+      "type": "string",
+      "description": "Monetary limit or formula bounding either party's liability"
+    }
+  ]
+}
